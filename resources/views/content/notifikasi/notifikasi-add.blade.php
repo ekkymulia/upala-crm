@@ -116,7 +116,6 @@
       $(this).append("<textarea name='content' style='display:none'>"+hvalue+"</textarea>");
     });
 
-    @if($mode == 'edit')
     var quill = new Quill('#ecommerce-category-description', {
       theme: 'snow',
       modules: {
@@ -126,6 +125,8 @@
         ],
       },
     });
+    @if($mode == 'edit')
+
     quill.root.innerHTML = `{!! $notifikasi->message !!}`;
     @endif
   });
