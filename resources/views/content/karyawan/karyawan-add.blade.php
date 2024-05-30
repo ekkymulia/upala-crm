@@ -1,6 +1,6 @@
 @extends('layouts/layoutMaster')
 
-@section('title', 'eCommerce Product Add - Apps')
+@section('title', 'Tambah Data Karyawan')
 
 @section('vendor-style')
 @vite([

@@ -1,6 +1,6 @@
 @extends('layouts/layoutMaster')
 
-@section('title', 'eCommerce Product Add - Apps')
+@section('title', 'Tambah Order')
 
 @section('vendor-style')
 @vite([

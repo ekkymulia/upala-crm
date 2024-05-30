@@ -4,7 +4,7 @@ $customizerHidden = 'customizer-hide';
 
 @extends('layouts/layoutMaster')
 
-@section('title', 'Login Basic - Pages')
+@section('title', 'Login Panel')
 
 @section('vendor-style')
 @vite([
